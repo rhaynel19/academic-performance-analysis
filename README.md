@@ -1,14 +1,14 @@
-Análisis de Rendimiento Académico — Proyecto de Ciencia de Datos
+Academic Performance Analysis — Data Science Project
 
-Este proyecto realiza un análisis completo del rendimiento académico de estudiantes utilizando herramientas de Ciencia de Datos y Machine Learning.
-Incluye limpieza de datos, análisis exploratorio, ingeniería de características, preparación del dataset y entrenamiento de múltiples modelos predictivos.
+This project performs a comprehensive analysis of students’ academic performance using Data Science and Machine Learning techniques.
+It includes data cleaning, exploratory data analysis, feature engineering, dataset preparation, and the training of multiple predictive models.
 
-🎯 Objetivo del Proyecto
+🎯 Project Objective
 
-Identificar qué factores influyen en que un estudiante apruebe o no apruebe,
-y construir modelos capaces de predecir este resultado con un nivel adecuado de exactitud.
+Identify the key factors that influence whether a student passes or fails,
+and build predictive models capable of forecasting this outcome with an acceptable level of accuracy.
 
-🧠 Tecnologías Utilizadas
+🧠 Technologies Used
 
 Python 3
 
@@ -24,92 +24,92 @@ Seaborn
 
 Jupyter Notebook
 
-📁 Estructura del Proyecto
-rendimiento-academico-analisis/
-│── data/                  # Dataset utilizado
-│── notebooks/             # Jupyter Notebook con el análisis y modelos
-│── images/                # Gráficos generados durante el análisis
-│── README.md              # Documentación del proyecto
-│── requirements.txt       # Dependencias necesarias
-│── .gitignore             # Archivos ignorados por Git
+📁 Project Structure
+academic-performance-analysis/
+│── data/                  # Dataset used
+│── notebooks/             # Jupyter Notebook with analysis and models
+│── images/                # Charts generated during analysis
+│── README.md              # Project documentation
+│── requirements.txt       # Required dependencies
+│── .gitignore             # Git ignored files
 
-📊 Proceso del Análisis
-1️⃣ Limpieza de Datos
+📊 Analysis Workflow
+1️⃣ Data Cleaning
 
-Manejo de valores nulos
+Handling missing values
 
-Revisión de tipos de datos
+Data type validation
 
-Corrección de inconsistencias
+Inconsistency correction
 
-Normalización de nombres y categorías
+Normalization of column names and categories
 
-2️⃣ Análisis Exploratorio (EDA)
+2️⃣ Exploratory Data Analysis (EDA)
 
-Distribución de variables
+Variable distribution analysis
 
-Relación entre factores académicos
+Relationships between academic factors
 
-Visualización de correlaciones
+Correlation visualization
 
-Identificación de patrones y tendencias
+Pattern and trend identification
 
-3️⃣ Ingeniería de Características
+3️⃣ Feature Engineering
 
-Creación de una variable objetivo binaria:
+Creation of a binary target variable:
 
-1 = Aprobado
+1 = Passed
 
-0 = No aprobado
+0 = Failed
 
-Codificación de variables categóricas (LabelEncoder)
+Encoding categorical variables (LabelEncoder)
 
-Escalamiento de variables numéricas (StandardScaler)
+Scaling numerical features (StandardScaler)
 
-4️⃣ División de Datos
+4️⃣ Data Splitting
 
-70% Entrenamiento
+70% Training
 
-30% Prueba
+30% Testing
 
-🤖 Modelos Entrenados y Desempeño
-🔹 Regresión Logística
+🤖 Trained Models and Performance
+🔹 Logistic Regression
 
-Exactitud: 0.78
+Accuracy: 0.78
 
-Buen desempeño prediciendo estudiantes aprobados
+Strong performance predicting passing students
 
-Menor precisión en casos de no aprobación
+Lower precision for failing cases
 
-🔹 Árbol de Decisión
+🔹 Decision Tree
 
-Exactitud: 0.75
+Accuracy: 0.75
 
-Alta precisión en aprobados
+High precision for passing students
 
-Baja capacidad para no aprobados
+Limited performance for failing cases
 
-(Puedes agregar Random Forest si lo integras más adelante)
+(Random Forest can be added in future iterations)
 
-📈 Resumen de Resultados
-Modelo	Exactitud
-Regresión Logística	0.78
-Árbol de Decisión	0.75
-🚀 Cómo Ejecutar el Proyecto
-1️⃣ Clonar el repositorio
-git clone https://github.com/rhaynel19/rendimiento-academico-analisis.git
+📈 Results Summary
+Model	Accuracy
+Logistic Regression	0.78
+Decision Tree	0.75
+🚀 How to Run the Project
+1️⃣ Clone the repository
+git clone https://github.com/rhaynel19/academic-performance-analysis.git
 
-2️⃣ Instalar las dependencias
+2️⃣ Install dependencies
 pip install -r requirements.txt
 
-3️⃣ Ejecutar el análisis
+3️⃣ Run the analysis
 jupyter notebook
 
-👨‍💻 Autor
+👨‍💻 Author
 
 Fraimel (Rhayner) Trinidad
-Lic. en Administración | Analista de Datos | Estudiante de Ciencia de Datos e Inteligencia Artificial
+BSc in Business Administration | Data Analyst | Data Science & Artificial Intelligence Student
 
-📧 Abierto a colaboraciones, mejoras o sugerencias.
+📧 Open to collaborations, improvements, and suggestions.
 
-Cualquier sugerencia o mejora es bienvenida.
+Any feedback or contributions are welcome.
